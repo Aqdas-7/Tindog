@@ -1,0 +1,189 @@
+/* html attributes */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+h2{
+    line-height: 1.8;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #8f8f8f;
+    font-family: 'Montserrat-medium', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.mb{
+    font-family: 'Montserrat-medium', sans-serif !important;
+    font-weight: 500;
+}
+
+
+/* title */
+#title{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    /* id styling */
+    position: relative;
+}
+h1.hea{
+    line-height:1.5;
+    font-size:3rem;
+    color: snow;
+}
+
+.container-fluid{
+    padding: 3% 15% 9%;
+
+}
+
+/* navigation bar */
+.navbar{
+    padding:0 0 6rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.15rem;
+    font-family: 'Montserrat-thin', sans-serif;
+    font-weight: 200;
+}
+/* download buttons */
+.btn{
+    margin: 5% 3% 5% 0;
+}
+/* title image */
+.doggo{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+/* challenges */
+.chead{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.cpara{
+    color: #8f8f8f;
+    font-family: 'Montserrat-medium', sans-serif;
+    font-size: 1.2rem;
+    padding: 5%;
+}
+.fa-solid{
+    color: #ef8172;
+    padding: 2rem 0;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+.col-lg-4{
+    text-align: center;
+}
+#features{
+    font-size: 1.5rem;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    
+}
+/* testimonial styling */
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.carousel-control-next-icon{
+    margin-left: 140px;
+}
+.carousel-control-prev-icon{
+    margin-right: 140px;
+}
+
+.thead{
+    line-height: 1.8;
+    font-size: 3rem;
+    padding: 0 5%;
+    font-weight: 700;
+}
+.tdoggo{
+    padding:20px;
+    width: 15%;
+    border-radius: 100%;
+    text-align: left;
+}
+/* press-decor */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.phead{
+    text-align: center;
+}
+.ppara{
+    text-align: center;
+}
+.pimg{
+    width: 15%;
+    margin: 20px 60px 50px;
+}
+/* pricing */
+#pricing{
+    padding: 100px;
+}
+.mybutto{
+    border-color: black;
+}
+
+.pc{
+    padding: 3% 2%;
+}
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .doggo{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7% 15%;
+}
+.cta-head{
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 2% 5%;
+}
+/* footer */
+#footer{
+    background-color: #fff;
+    padding: 3% 10%;
+    text-align: center;
+}
+.fi{
+    padding: 2%;
+}
